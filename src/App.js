@@ -11,13 +11,16 @@ function App() {
         </p>
         <a
           className="App-link"
-          href="https://reactjs.org"
+          href="https://discord.gg/pxjKn57SGa"
           target="_blank"
           rel="noopener noreferrer"
         >
-          Follow our progress
+          We are looking for developers and graphic designers!
         </a>
       </header>
+      <p className="Message">
+          Swipetone team ❤️ 
+        </p>
     </div>
   );
 }
