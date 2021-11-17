@@ -1,17 +1,23 @@
 import React from 'react';
 import {
   BrowserRouter as Router,
-  Route
+  Route,
+  Redirect
 } from "react-router-dom";
-import {Testers} from './testers';
 import {Form} from './form';
 import { About } from './about';
+import { TermsOfUse } from './terms-of-use';
+import { PrivacyPolicy } from './privacy-policy';
 export const Webpages = () => {
     return(
         <Router>
-            <Route exact path="/" component= {Testers} />
             <Route path = "/form" component = {Form} />
-            <Route path = "/about" component = {About} />
+            <Route path = "/terms-of-use" component = {TermsOfUse} />
+            <Route path = "/privacy-policy" component = {PrivacyPolicy} />
+            <Route path = "/home" component = {About} />
+            <Route exact path="/">
+                <Redirect to="/home" />
+            </Route>
         </Router>
     );
 };

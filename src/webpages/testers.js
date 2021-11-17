@@ -45,11 +45,7 @@ export const Testers = () => {
                             <h1 className="text-center" style={{ fontFamily: 'Helvetica', color: 'rgb(255,255,255)' }}>Swipetone Demo je tu!</h1>
                             <p style={{ color: 'rgb(237,237,237)', padding: '25px', fontFamily: 'Roboto, sans-serif', fontSize: '18px', textAlign: "justify" }}><br /> Ahoj!<br />Radi by sme Ti predstavili demo verziu pre mobily s OS Android novej aplikácie Swipetone. Ďakujeme Ti, že nám pomôžeš so zlepšením Swipetone-u. Od momentu, kedy Ti príde link na aplikáciu, začne plynúť týždeň, počas ktorého budeš testovať aplikáciu s ďalšími 20 ľuďmi. Na konci týždňa by sme Ťa poprosili o spätnú väzbu, vďaka ktorej budeme schopní zlepšiť Swipetone. Dopredu Ti ďakujeme.<br />Taktiež by sme Ťa chceli poprosiť o vyplnenie kratučkého formuláru, vďaka ktorému Ťa budeme vedieť zaradiť do testovania.<br /><br />Ďakujeme.<br />Tvoj team Swipetone<br /></p>
                             <div className="text-center" style={{ paddingBottom: '60px' }}>
-                                <Link to="/form">
-                                    <button className="btn btn-primary justify-content-center" type="button" style={{ background: '#924fff', borderStyle: 'none' }}>
-                                        {"Spustiť formulár"}
-                                    </button>
-                                </Link>
+                                
                             </div>
                         </div>
                         
@@ -76,8 +72,8 @@ export const Testers = () => {
                             <div className="col-sm-6 col-md-3 item">
                                 <h3>Podmienky</h3>
                                 <ul>
-                                    <li style={{ color: 'rgb(240, 249, 255)' }}><a href="https://swipetone.com" style={{ fontFamily: 'Roboto, sans-serif', color: 'rgb(240, 249, 255)', fontSize: '16px' }}>Privacy Policy</a></li>
-                                    <li style={{ color: 'rgb(240, 249, 255)', fontSize: '16px' }}><a href="https://swipetone.com" style={{ fontFamily: 'Roboto, sans-serif', color: 'rgb(240, 249, 255)' }}>Terms of Use</a></li>
+                                    <li style={{ color: 'rgb(240, 249, 255)' }}><a href="https://swipetone.com/privacy-policy" style={{ fontFamily: 'Roboto, sans-serif', color: 'rgb(240, 249, 255)', fontSize: '16px' }}>Privacy Policy</a></li>
+                                    <li style={{ color: 'rgb(240, 249, 255)', fontSize: '16px' }}><a href="https://swipetone.com/terms-of-use" style={{ fontFamily: 'Roboto, sans-serif', color: 'rgb(240, 249, 255)' }}>Terms of Use</a></li>
                                 </ul>
                             </div>
                             <div className="col-sm-6 col-md-3 item">

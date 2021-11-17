@@ -43,19 +43,16 @@ export const About = () => {
                     <div className="row">
                         <div className="col-md-8 offset-md-2 offset-xl-2">
                             <h1 className="text-center" style={{ fontFamily: 'Helvetica', color: 'rgb(255,255,255)' }}>Čo je Swipetone?</h1>
-                            <p style={{ color: 'rgb(237,237,237)', padding: '25px', fontFamily: 'Roboto, sans-serif', fontSize: '18px', textAlign: "justify" }}>Myšlienka milovníkov hudby, ktorá sa pretvorila do mobilnej aplikácie., Tá ti umožní objavovať novú hudbu prostredníctvom rýchleho výberu z krátkych 30 sekundových ukážok v Swiperi. Popri Swipovaní môžeš spoznať nových ľudí, ktorí majú podobný vkus na hudbu ako ty. Ak sa ti nejaká pesnička zapáči, napíš krátky príspevok, vďaka ktorému, sa o nej dozvedia aj tvoji kamaráti.</p>
-                            <div className="text-center" style={{ paddingBottom: '60px' }}>
-                                <Link to="/">
+                            <p style={{ color: 'rgb(237,237,237)', padding: '25px', fontFamily: 'Roboto, sans-serif', fontSize: '18px', textAlign: "justify", marginTop: '30px' }}>Myšlienka milovníkov hudby, ktorá sa pretvorila do mobilnej aplikácie., Tá ti umožní objavovať novú hudbu prostredníctvom rýchleho výberu z krátkych 30 sekundových ukážok v Swiperi. Popri Swipovaní môžeš spoznať nových ľudí, ktorí majú podobný vkus na hudbu ako ty. Ak sa ti nejaká pesnička zapáči, napíš krátky príspevok, vďaka ktorému, sa o nej dozvedia aj tvoji kamaráti.</p>
+                            <div className="text-center" style={{ paddingBottom: '80px', marginTop: '30px' }}>
                                     <button className="btn btn-primary justify-content-center" type="button" style={{ background: '#924fff', borderStyle: 'none' }}>
-                                        {"Chcem sa stať testerom"}
+                                        <a href="https://play.google.com/store/apps/details?id=com.swipetone" target="_blank" style={{textDecoration: "none", color: "#fff"}}>Stiahnuť</a>
                                     </button>
-                                </Link>
                             </div>
                         </div>
                     </div>
                 </div>
-                <p className="d-none d-lg-block" style={{ color: 'rgb(237,237,237)', fontFamily: 'Roboto, sans-serif', fontSize: '18px', textAlign: 'center' }}><br />Ešte menšia ukážka toho, na čo sa môžeš pri testovaní tešiť.&nbsp;</p>
-                <div className="container d-none d-lg-block" style={{ paddingRight: '150px', paddingLeft: '150px', paddingBottom: '60px' }}>
+                <div className="container d-none d-lg-block" style={{ paddingRight: '150px', paddingLeft: '150px', paddingBottom: '120px', marginTop: '30px' }}>
                     <div className="row">
                         <div className="col-md-4 text-center"><img src={Preview1} style={{ width: '200px', borderRadius: '10px' }} alt="Swipetone App #1" /></div>
                         <div className="col-md-4 text-center"><img src={Preview2} style={{ width: '200px', borderRadius: '10px' }} alt="Swipetone App #2" /></div>
@@ -68,15 +65,15 @@ export const About = () => {
                             <div className="col-sm-6 col-md-3 item">
                                 <h3>Mobilná aplikácia</h3>
                                 <ul>
-                                    <li style={{ color: 'rgb(240, 249, 255)' }}><a href="https://swipetone.com" style={{ fontFamily: 'Roboto, sans-serif', color: 'rgb(240, 249, 255)', fontSize: '16px' }}>Google Play</a></li>
+                                    <li style={{ color: 'rgb(240, 249, 255)' }}><a href="https://play.google.com/store/apps/details?id=com.swipetone" style={{ fontFamily: 'Roboto, sans-serif', color: 'rgb(240, 249, 255)', fontSize: '16px' }}>Google Play</a></li>
                                     <li style={{ color: 'rgb(240, 249, 255)' }} />
                                 </ul>
                             </div>
                             <div className="col-sm-6 col-md-3 item">
                                 <h3>Podmienky</h3>
                                 <ul>
-                                    <li style={{ color: 'rgb(240, 249, 255)' }}><a href="https://swipetone.com" style={{ fontFamily: 'Roboto, sans-serif', color: 'rgb(240, 249, 255)', fontSize: '16px' }}>Privacy Policy</a></li>
-                                    <li style={{ color: 'rgb(240, 249, 255)', fontSize: '16px' }}><a href="https://swipetone.com" style={{ fontFamily: 'Roboto, sans-serif', color: 'rgb(240, 249, 255)' }}>Terms of Use</a></li>
+                                    <li style={{ color: 'rgb(240, 249, 255)' }}><a href="https://swipetone.com/privacy-policy" target="_blank" style={{ fontFamily: 'Roboto, sans-serif', color: 'rgb(240, 249, 255)', fontSize: '16px' }}>Privacy Policy</a></li>
+                                    <li style={{ color: 'rgb(240, 249, 255)', fontSize: '16px' }}><a href="https://swipetone.com/terms-of-use" target="_blank" style={{ fontFamily: 'Roboto, sans-serif', color: 'rgb(240, 249, 255)' }}>Terms of Use</a></li>
                                 </ul>
                             </div>
                             <div className="col-sm-6 col-md-3 item">
